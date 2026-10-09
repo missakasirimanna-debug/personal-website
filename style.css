@@ -750,3 +750,7 @@ footer {
         gap: 8px;
     }
 }
+/* Beyond Code links */
+.beyond-grid .interest { display:block; color:inherit; text-decoration:none; cursor:pointer; }
+.interest-link { display:inline-block; margin-top:18px; color:var(--accent); font-size:.82rem; font-weight:700; }
+.beyond-grid .interest:focus-visible { outline:2px solid var(--accent); outline-offset:4px; }
